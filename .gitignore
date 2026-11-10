@@ -107,3 +107,28 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+# ==== 团结引擎（Tuanjie 1.10）补充 ====
+# Codely 桥 cn.tuanjie.codely.bridge 的本地索引与扩展缓存
+/.codely-cli/
+
+# 小游戏转换输出（微信/抖音/快手），仅当导出目录落在项目根时生效
+/webgl/
+/minigame/
+/wxgame/
+
+# 鸿蒙 / OpenHarmony 产物（官方模板只覆盖 apk/aab/app）
+*.hap
+*.hsp
+/oh_modules/
+/node_modules/
+
+# JetBrains Rider 工程目录（manifest 里有 com.unity.ide.rider）
+/.idea/
+
+# Unity Test Framework 测试报告
+TestResults.xml
+*.TestResults.xml
+
+# 本地 UPM 包 tarball
+/Packages/*.tgz
